@@ -1,0 +1,8 @@
+// 先安裝vscode的REST Client套件
+
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+  "longUrl" : "https://www.mongodb.com/download-center/cloud"
+}
